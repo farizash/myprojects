@@ -70,3 +70,39 @@ section.firstblog {
     background-color: #ed6a5a;
     transition: 0.5s;
 }
+.secondblog {
+    background: -moz-linear-gradient(90deg,#ed6a5a 0%,#f4f1bb 100%);
+    background: -webkit-linear-gradient(
+90deg
+,#ed6a5a 0%,#f4f1bb 100%);
+    background: -o-linear-gradient(90deg,#ed6a5a 0%,#f4f1bb 100%);
+    background: -ms-linear-gradient(90deg,#ed6a5a 0%,#f4f1bb 100%);
+    background: linear-gradient(
+90deg
+,#ed6a5a 0%,#f4f1bb 100%);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box>i {
+    color: #434345;
+    font-size: 44px;
+}
+
+.box {
+    text-align: center;
+    margin: 80px 0;
+}
+.box h2 {
+    font-size: 42px;
+    color: #fff;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.box p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: unset;
+}
