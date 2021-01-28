@@ -1,0 +1,72 @@
+header {
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 80px 0!important;
+    background: #f5f5f5;
+}
+section.firstblog {
+    display: flex;
+    justify-content: space-between;
+    background: #f5f5f5;
+    align-items: flex-start;
+}
+.icons>a {
+    color: #434345;
+    font-size: 18px;
+    padding: 0 10px;
+}
+
+.icons {
+    display: flex;
+}
+.book img {
+    width: 100%;
+}
+.texttop h1 {
+    font-size: 64px;
+    color: #434345;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.texttop h3 {
+    color: #9b9b9b;
+    font-size: 24px;
+    margin-bottom: 60px;
+    line-height: 1.5;
+}
+
+.click a {
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: 2px solid #e8402c;
+}
+.orange {
+    background-color: #e8402c;
+    color: #fff;
+}
+.book {
+    padding: 20px;
+}
+
+.texttop {
+    padding: 40px 50px 0;
+}
+
+.click {
+    display: block;
+}
+.white {
+    color: #e8402c;
+}
+
+.click a>i {
+    padding-right: 6px;
+}
+
+.click a:hover {
+    color: #fff;
+    background-color: #ed6a5a;
+    transition: 0.5s;
+}
