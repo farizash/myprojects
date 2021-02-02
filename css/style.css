@@ -106,3 +106,33 @@ section.firstblog {
     font-weight: 700;
     text-transform: unset;
 }
+.thirdblog {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.thirdblog .book {
+    width: 50%;
+}
+
+.thirdblog .texttop {
+    width: 50%;
+}
+
+.thirdblog h1 {
+    line-height: 1.2;
+    font-size: 45px;
+}
+
+.thirdblog h3 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #9b9b9b;
+}
+
+.thirdblog img {
+    width: auto;
+    float: right;
+}
