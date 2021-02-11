@@ -5,6 +5,17 @@ header {
     padding: 30px 80px 0!important;
     background: #f5f5f5;
 }
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.container {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
 .backbook {
     background-image: url(../images/library.jpg);
     padding: 7% 0;
@@ -70,6 +81,16 @@ section.firstblog {
 .click a>i {
     padding-right: 6px;
 }
+.black {
+    color: #434345 !important;
+}
+.texttop h2 {
+    line-height: 1.2;
+    font-size: 42px;
+    color: #fff;
+    font-weight: bold;
+    margin: 20px 0;
+ }
 
 .click a:hover {
     color: #fff;
@@ -99,12 +120,14 @@ section.firstblog {
     text-align: center;
     margin: 80px 0;
 }
-.box h2 {
+
+.box h3 {
     font-size: 42px;
     color: #fff;
     font-weight: bold;
     margin: 20px 0;
-}
+ }
+
 
 .box p {
     color: #fff;
@@ -127,11 +150,6 @@ section.firstblog {
     width: 50%;
 }
 
-.thirdblog h1 {
-    line-height: 1.2;
-    font-size: 45px;
-}
-
 .thirdblog h3 {
     font-size: 16px;
     font-weight: 400;
@@ -143,14 +161,85 @@ section.firstblog {
     width: auto;
     float: right;
 }
-.container {
-    padding-left: 5%;
-    padding-right: 5%;
-}
-.backbook h1 {
+.backbook h2 {
     color: #fff;
 }
 
 .backbook h3 {
     color: #fff;
+}
+
+.item-people {
+    width: 27%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-grey {
+    position: relative;
+    padding: 26px 21px 25px 30px;
+    background: #f5f5f5;
+    border-radius: 3px;
+    z-index: 1;
+}
+
+.box-grey>p {
+    color: #434345;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.box-image>img {
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.box-image {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.box-image>p {
+    line-height: 1.38889;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.box-image>p>span {
+    color: #ed6a5a;
+    font-size: 13px;
+    font-weight: 400;
+    display: block;
+}
+
+.box-grey:before {
+    position: absolute;
+    top: 6px;
+    left: 8px;
+    content: url(../images/quote.png);
+    z-index: -1;
+    transform: scale(.7);
+}
+
+.box-grey:after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 35px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 10px 0 10px;
+    border-color: #f5f5f5 transparent transparent transparent;
+}
+.fourth h2 {
+    text-align: center;
+}
+
+.fourth {
+    padding-top: 2%;
+    padding-bottom: 8%;
 }
