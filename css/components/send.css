@@ -1,0 +1,46 @@
+.newsletter-section {
+    background-image: url(../../images/backgrounds/post.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.newsletter-section .texttop h3 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 1.5;
+}
+
+.send {
+    position: relative;
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+button.btn.btn-sm.btn-primary {
+    color: #fff;
+    background-color: #e8402c;
+    border: 1px solid #e8402c;
+    padding: 14px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.send>span {
+    color: #fff;
+    background-color: #e8402c;
+    border: unset;
+    padding: 14px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+input.send-button {
+    padding: 14px;
+    border: 1px solid #fff;
+}
