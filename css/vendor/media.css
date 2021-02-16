@@ -19,6 +19,10 @@
         background-image: unset;
     }
     
+    .about-section img {
+        width: 100%;
+    }
+    
     .section-padding {padding-top: 80px;padding-bottom: 80px;}
     
     .box {
