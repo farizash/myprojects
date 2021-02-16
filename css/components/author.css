@@ -1,0 +1,29 @@
+.author-section h2 {
+    text-align: center;
+}
+.grey {
+    line-height: 1.5;
+    color: #9b9b9b;
+    margin-bottom: 30px;
+}
+
+.author-txt>h3 {
+    color: #434345;
+    font-size: 30px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.text-author {
+    color: #434345;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.author-txt {
+    width: 60%;
+}
+
+.author-txt .click {
+    margin-top: 8%;
+}

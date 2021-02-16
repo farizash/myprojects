@@ -1,0 +1,48 @@
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.about-block .book {
+    padding-bottom: 0;
+}
+
+.about-block {
+    width: 50%;
+}
+
+.about-section h3 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #9b9b9b;
+    margin-bottom: 50px;
+}
+
+.about-section img {
+    width: auto;
+    float: right;
+}
+
+
+.backbook h2 {
+    color: #fff;
+}
+
+.backbook h3 {
+    color: #fff;
+}
+
+.backbook {
+    background-image: url(../../images/backgrounds/library.jpg);
+    background-repeat: no-repeat;
+}
+
+.read-section h3 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #9b9b9b;
+    margin-bottom: 50px;
+}

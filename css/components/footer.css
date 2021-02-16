@@ -1,0 +1,27 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 25px;
+    background: #191919;
+    padding-bottom: 25px;
+}
+
+.wrap.icons>a {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #212121;
+    margin: 0 5px;
+    color: #fff;
+    padding: 8px;
+}
+
+.wrap.icons>a:hover {
+    background: #0956b5;
+    transition: 0.5s;
+}

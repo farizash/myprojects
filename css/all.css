@@ -1,0 +1,11 @@
+@import url(vendor/same.css);
+@import url(components/header.css);
+@import url(components/home.css);
+@import url(components/about.css);
+@import url(components/review.css);
+@import url(components/price.css);
+@import url(components/author.css);
+@import url(components/send.css);
+@import url(components/footer.css);
+@import url(vendor/media.css);
+@import url(vendor/reset.css);
